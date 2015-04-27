@@ -2,7 +2,7 @@
   "name": "haste",
   "version": "0.1.6",
   "private": true,
-  "description": "Private Pastebin Server - Wrapper for CozyCloud",
+  "description": "Private Pastebin Server",
   "keywords": [
     "paste",
     "pastebin",
@@ -17,13 +17,13 @@
   "dependencies": {
     "async": "^0.9.0",
     "basic-auth": "^1.0.0",
-    "busboy": "0.2.8",
+    "busboy": "0.2.9",
     "connect": "3.1.1",
     "connect-route": "git://github.com/neandrake/connect-route.git#bc44be0fac3e7ccda51221c07b428a5f3594bd06",
-    "cozydb": "0.0.11",
     "mime": "1.2.11",
     "printit": "^0.1.6",
     "spirc": "0.1.4",
+	"then-redis": "0.3.12",
     "st": "0.5.1",
     "uglify-js": "2.4.15",
     "winston": "0.7.3"
@@ -52,11 +52,5 @@
     "start": "node server.js",
     "test": "mocha -r should spec/*"
   },
-  "cozy-permissions": {
-    "Haste": {
-      "description": "Store your snippets into Cozy data system"
-    }
-  },
-  "cozy-displayName": "Haste",
   "icon-path": "haste.png"
 }

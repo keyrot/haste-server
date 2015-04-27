@@ -2,7 +2,7 @@
   "host": "0.0.0.0",
   "port": 7777,
   "keyLength": 10,
-  "maxLength": 400000,
+  "maxLength": 5000000,
   "staticMaxAge": 86400,
   "recompressStaticAssets": false,
   "logging": [
@@ -16,9 +16,8 @@
     "type": "keygen"
   },
   "storage": {
-    "type": "cozydb"
+    "type": "redis"
   },
   "documents": {
-    "readme": "./README.md"
   }
 }
