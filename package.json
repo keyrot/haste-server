@@ -26,7 +26,8 @@
 	"then-redis": "0.3.12",
     "st": "0.5.1",
     "uglify-js": "2.4.15",
-    "winston": "0.7.3"
+    "winston": "0.7.3",
+	"redis-url": "1.2.0"
   },
   "devDependencies": {
     "mocha": "*",
@@ -34,8 +35,8 @@
   },
   "bundledDependencies": [],
   "engines": {
-    "node": "0.10.31+",
-    "npm": "1.4.24+"
+    "node": "0.12.2",
+    "npm": "2.7.4+"
   },
   "bin": {
     "haste-server": "./server.js"
